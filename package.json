@@ -1,8 +1,31 @@
 {
 	"name": "@codeeditorland/ecosystem-ci",
+	"version": "0.0.1",
+	"private": false,
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SWCEcosystemCi#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/SWCEcosystemCi/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/SWCEcosystemCi.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"scripts": {
 		"bisect": "tsx ecosystem-ci.ts bisect",
-		"enable": "tsx ecosystem-ci.ts enable"
+		"enable": "tsx ecosystem-ci.ts enable",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"lint-staged": {
 		"*": [
@@ -23,9 +46,13 @@
 		"semver": "7.7.1"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/node": "22.13.14",
 		"eslint-define-config": "2.1.0",
 		"lint-staged": "15.5.0",
 		"tsx": "4.19.3"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
