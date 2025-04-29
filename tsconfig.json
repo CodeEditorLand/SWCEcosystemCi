@@ -27,6 +27,7 @@
 		"tests/.*.ts",
 		"src",
 		"src",
+		"src",
 		"src"
 	]
 }
