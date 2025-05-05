@@ -1,34 +1,18 @@
 {
-	"compilerOptions": {
-		"allowSyntheticDefaultImports": true,
-		"baseUrl": "./",
-		"declaration": true,
-		"esModuleInterop": true,
-		"lib": [
-			"esnext"
-		],
-		"module": "nodenext",
-		"moduleResolution": "node",
-		"noImplicitOverride": true,
-		"noUnusedLocals": true,
-		"outDir": "Target",
-		"rootDir": "src",
-		"sourceMap": true,
-		"strict": true,
-		"target": "esnext",
-		"useUnknownInCatchVariables": false
-	},
-	"exclude": [
-		"**/node_modules/**"
-	],
-	"extends": "@playform/build/tsconfig",
-	"include": [
-		"./**/*.ts",
-		"tests/.*.ts",
-		"src",
-		"src",
-		"src",
-		"src",
-		"src"
-	]
+  "include": ["./**/*.ts", "tests/.*.ts"],
+  "exclude": ["**/node_modules/**"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "node",
+    "strict": true,
+    "declaration": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "useUnknownInCatchVariables": false,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["esnext"],
+    "sourceMap": true
+  }
 }
