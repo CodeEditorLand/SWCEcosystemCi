@@ -26,8 +26,8 @@
     "bisect": "tsx ecosystem-ci.ts bisect"
   },
   "devDependencies": {
-    "@types/node": "^22.15.30",
-    "@typescript-eslint/eslint-plugin": "^8.33.1",
+    "@types/node": "^24.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
     "eslint": "^9.28.0",
     "eslint-define-config": "^2.1.0",
     "eslint-plugin-n": "^17.19.0",
