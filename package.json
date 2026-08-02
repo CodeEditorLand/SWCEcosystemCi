@@ -1,6 +1,6 @@
 {
   "name": "swc-ecosystem-ci",
-  "packageManager": "pnpm@11.15.0",
+  "packageManager": "pnpm@11.18.0",
   "type": "module",
   "engines": {
     "node": ">=18",
@@ -26,15 +26,15 @@
     "bisect": "tsx ecosystem-ci.ts bisect"
   },
   "devDependencies": {
-    "@types/node": "^26.1.1",
-    "@typescript-eslint/eslint-plugin": "^8.64.0",
-    "eslint": "^10.7.0",
+    "@types/node": "^26.1.2",
+    "@typescript-eslint/eslint-plugin": "^8.65.0",
+    "eslint": "^10.8.0",
     "eslint-define-config": "^2.1.0",
     "eslint-plugin-n": "^18.2.2",
     "husky": "^9.1.7",
-    "lint-staged": "^17.1.0",
-    "prettier": "^3.9.5",
-    "tsx": "^4.23.1",
+    "lint-staged": "^17.3.0",
+    "prettier": "^3.9.6",
+    "tsx": "^4.23.4",
     "typescript": "^7.0.2"
   },
   "lint-staged": {
@@ -48,10 +48,10 @@
   },
   "dependencies": {
     "@actions/core": "^3.0.1",
-    "@antfu/ni": "^30.2.0",
-    "@octokit/core": "^7.0.6",
+    "@antfu/ni": "^30.3.0",
+    "@octokit/core": "^7.0.7",
     "cac": "^7.0.0",
-    "execa": "^10.0.0",
+    "execa": "^10.0.1",
     "octokit": "^5.0.5",
     "semver": "^7.8.5"
   }
